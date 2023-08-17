@@ -28,7 +28,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["www.alashshrestha.com.np"]
 STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
 # Application definition
@@ -133,7 +133,7 @@ EMAIL_PORT = config("EMAIL_PORT")
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL")
 
-LOGIN_URL = "/users/login/"
+# LOGIN_URL = "/users/login/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
